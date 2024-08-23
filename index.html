@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Exercise Frontend Mentor, Product list with cart">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300..700&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <title>Frontend Mentor | Product list with cart</title>
+    </head>
+    <body>
+
+      <div class="background"></div>
+
+      <main class="container">
+
+        <h1 class="header-title text-superBold">Desserts</h1>
+
+        <div class="display-section-image">
+
+          <section class="container-section">
+            <picture class="image-container">
+              <source srcset="./images/image-waffle-mobile.jpg" media="(max-width: 47.9375rem)">
+              <source srcset="./images/image-waffle-tablet.jpg" media="(max-width: 89.9375rem)"> 
+              <source srcset="./images/image-waffle-desktop.jpg" media="(min-width: 90rem)">
+              <img class="section-image" src="./images/image-waffle-mobile.jpg" alt="picture of waffle">
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Waffle</h2>
+            <p class="text-semiBold section-text">Waffle with Berries<span class="price">$6.50</span></p>
+          </section>
+
+          <section class="container-section">
+              <picture class="image-container">
+                <source srcset="./images/image-creme-brulee-mobile.jpg" media="(max-width: 47.9375rem)">
+                <source srcset="./images/image-creme-brulee-tablet.jpg" media="(max-width: 89.9375rem)">  
+                <source srcset="./images/image-creme-brulee-desktop.jpg" media="(min-width: 90rem)"> 
+                <img class="section-image" src="./images/image-creme-brulee-mobile.jpg" alt="picture of creme brulee" >
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Crème Brûlée</h2>
+            <p class="text-semiBold section-text">Vanilla Bean Crème Brûlée<span class="price">$7.00</span></p>
+          </section>
+
+          <section class="container-section">
+            <picture class="image-container">
+              <source srcset="./images/image-macaron-mobile.jpg" media="(max-width: 47.9375rem)">
+              <source srcset="./images/image-macaron-tablet.jpg" media="(max-width: 89.9375rem)">
+              <source srcset="./images/image-macaron-desktop.jpg" media="(min-width: 90rem)"> 
+              <img class="section-image" src="./images/image-macaron-mobile.jpg" alt="picture of macaron">
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Macaron</h2>
+            <p class="text-semiBold section-text">Macaron Mix of Five<span class="price">$8.00</span></p>
+          </section>
+        
+          <section class="container-section">
+            <picture class="image-container">
+              <source srcset="./images/image-tiramisu-mobile.jpg" media="(max-width: 47.9375rem)">
+              <source srcset="./images/image-tiramisu-tablet.jpg" media="(max-width: 89.9375rem)">
+              <source srcset="./images/image-tiramisu-desktop.jpg" media="(min-width: 90rem)"> 
+              <img class="section-image" src="./images/image-tiramisu-mobile.jpg" alt="picture of tiramitsu">
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Tiramisu</h2>
+            <p class="text-semiBold section-text">Classic Tiramisu<span class="price">$5.50</span></p>
+          </section>
+          
+          <section class="container-section">
+            <picture class="image-container">
+              <source srcset="./images/image-baklava-mobile.jpg" media="(max-width: 47.9375rem)">
+              <source srcset="./images/image-baklava-tablet.jpg" media="(max-width: 89.9375rem)">
+              <source srcset="./images/image-baklava-desktop.jpg" media="(min-width: 90rem)"> 
+              <img class="section-image" src="./images/image-baklava-mobile.jpg" alt="picture of baklava">
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Baklava</h2>
+            <p class="text-semiBold section-text">Pistachio Baklava<span class="price">$4.00</span></p>
+          </section>
+  
+          <section class="container-section">
+            <picture class="image-container">
+              <source srcset="./images/image-meringue-mobile.jpg" media="(max-width: 47.9375rem)">
+              <source srcset="./images/image-meringue-tablet.jpg" media="(max-width: 89.9375rem)">
+              <source srcset="./images/image-meringue-desktop.jpg" media="(min-width: 90rem)"> 
+              <img class="section-image" src="./images/image-meringue-mobile.jpg" alt="picture of meringue">
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Pie</h2>
+            <p class="text-semiBold section-text">Lemon Meringue Pie<span class="price">$5.00</span></p>
+          </section>
+
+          <section class="container-section">
+            <picture class="image-container">
+              <source srcset="./images/image-cake-mobile.jpg" media="(max-width: 47.9375rem)">
+              <source srcset="./images/image-cake-tablet.jpg" media="(max-width: 89.9375rem)">
+              <source srcset="./images/image-cake-desktop.jpg" media="(min-width: 90rem)"> 
+              <img class="section-image" src="./images/image-cake-mobile.jpg" alt="picture of red velvet cake">
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Cake</h2>
+            <p class="text-semiBold section-text">Red Velvet Cake<span class="price">$4.50</span></p>
+          </section>
+
+          <section class="container-section">
+            <picture class="image-container">
+              <source srcset="./images/image-brownie-mobile.jpg" media="(max-width: 47.9375rem)">
+              <source srcset="./images/image-brownie-tablet.jpg" media="(max-width: 89.9375rem)">
+              <source srcset="./images/image-brownie-desktop.jpg" media="(min-width: 90rem)"> 
+              <img class="section-image" src="./images/image-brownie-mobile.jpg" alt="picture of salted caramel brownie" >
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Brownie</h2>
+            <p class="text-semiBold section-text">Salted Caramel Brownie<span class="price">$4.50</span></p>
+          </section>
+
+          <section class="container-section">
+            <picture class="image-container">
+              <source srcset="./images/image-panna-cotta-mobile.jpg" media="(max-width: 47.9375rem)">
+              <source srcset="./images/image-panna-cotta-tablet.jpg" media="(max-width: 89.9375rem)">
+              <source srcset="./images/image-panna-cotta-desktop.jpg" media="(min-width: 90rem)"> 
+              <img class="section-image" src="./images/image-panna-cotta-mobile.jpg" alt="picture of panna cotta" >
+            </picture>
+            <button class="button-container text-semiBold">Add to Cart</button>
+            <h2 class="text section-title">Panna Cotta</h2>
+            <p class="text-semiBold section-text">Vanilla Panna Cotta<span class="price">$6.50</span></p>
+          </section>
+
+        </div>
+
+        <section class="order">
+          <h2 class="text-bold order-title">Your Cart(<span id="number-item">0</span>)</h2>
+          <div class="item-selected">
+            <div id="imageCake">
+              <img class="image-order" src="./images/illustration-empty-cart.svg" alt="piece of cake">
+              <p class="text order-text">Your added items will appear here</p>             
+            </div>
+          </div>
+        </section>
+      
+      </main>
+
+    <script  src="./script.js"></script>
+
+    </body>
+
+</html>
